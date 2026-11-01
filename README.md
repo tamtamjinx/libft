@@ -134,11 +134,11 @@ Each function's source file also contains a commented-out `main()` test example.
 - [C reference — cppreference](https://en.cppreference.com/w/c): reference for C language features, types, pointers, and standard library behavior.
 - [Linux manual pages — man7.org](https://man7.org/linux/man-pages/): documentation for system interfaces such as `write`, `malloc`, and memory-related functions.
 - [GNU Make manual](https://www.gnu.org/software/make/manual/): reference for Makefiles, variables, and build rules.
-- [42 Norminette](https://github.com/42School/norminette): source-code style checker used in the 42 curriculum.
+- [makefile](https://www.youtube.com/watch?v=CEErMCLG_Wg&list=PLkH1REggdbJpmQKm8Nu-H8R81_-c00fpB): makefile basic videos.
 
 ### Use of AI
 
-AI tools were used as a support resource during the project to help debug code, identify and fix implementation issues, and understand unfamiliar C programming concepts encountered during development. AI assistance was used as a supplementary aid while reviewing and improving the code; the implementation and final verification remain the responsibility of the project author.
+AI tools were used as a support resource during the project to help debug code, identify and fix implementation issues, and understand unfamiliar C programming concepts encountered during development. AI assistance was used as a supplementary aid while reviewing and improving the code and make this readme.
 
 ## Validation
 
