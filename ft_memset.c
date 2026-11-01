@@ -1,0 +1,44 @@
+/* ************************************************************************** */
+/*                                                                            */
+/*                                                        :::      ::::::::   */
+/*   ft_memset.c                                        :+:      :+:    :+:   */
+/*                                                    +:+ +:+         +:+     */
+/*   By: tlafi <marvin@42.fr>                       +#+  +:+       +#+        */
+/*                                                +#+#+#+#+#+   +#+           */
+/*   Created: 2026/10/26 19:24:41 by tlafi             #+#    #+#             */
+/*   Updated: 2026/10/26 19:24:47 by tlafi            ###   ########.fr       */
+/*                                                                            */
+/* ************************************************************************** */
+
+#include "libft.h"
+
+void	*ft_memset(void *s, int c, size_t n)
+{
+	unsigned char	*p;
+	size_t			i;
+
+	p = (unsigned char *)s;
+	i = 0;
+	while (i < n)
+	{
+		p[i] = (unsigned char)c;
+		i++;
+	}
+	return (s);
+}
+
+
+/*
+ * Uncomment this block to test this function.
+ * Compile with the other Libft source files or libft.a.
+ */
+/*
+#include <stdio.h>
+#include <stdlib.h>
+
+int main(void)
+{
+    char s[] = "hello"; ft_memset(s, 'X', 2); puts(s);
+    return (0);
+}
+*/
